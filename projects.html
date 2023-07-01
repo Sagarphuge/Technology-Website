@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="./main.js/script.js" defer></script>
+
+    <script src="https://kit.fontawesome.com/1229d2fa6e.js" crossorigin="anonymous"></script>
+     <!-- swiper css  -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+     
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Tech Website</title>
+  </head>
+  <body>
+
+    <!-- navbar section -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-4" style="background-color: hsla(0, 0%, 0%, 0.95);">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="https://favdevs.com/demos/wp/techza/wp-content/uploads/2023/05/white-logo.png" style="width: 120px;" alt="">
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active" href="./projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./team.html">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex get-a-quote">
+            <button class="sm-btn" type="submit">Get A Quote</button>
+          </div>
+        </div>
+      </div>
+  </nav>
+
+
+    <div class="top-head" style="background-image: url(./images/top-section/project-page-top.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col head-txt" style="z-index: 5;">
+            <h5 class="text-white">Home / Projects</h5>
+            <h1 class="text-white">Projects</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- projects-wrap  -->
+    <section class="project-wrap" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col text-start text-center mb-3">
+            <h6 class="text-blue" >Some of our work</h6>
+            <h3 class="comp-head">Thousands of projects have been completed</h3>
+          </div>
+        </div>
+        <div class="row project-tab">
+          <div class="col">
+            <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="project-btns nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Show All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="project-btns nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Cyber Security</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="project-btns nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">IT Consultancy</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="project-btns nav-link" id="pills-web-tab" data-bs-toggle="pill" data-bs-target="#pills-web" type="button" role="tab" aria-controls="pills-web" aria-selected="false">Web Development</button>
+                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row project-box-wrap">
+                  <div class="project-box">
+                    <img src="./images/projects/project-2-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">Secure Database</h5>
+                      <p class="text-white mb-1">Cyber Security</p>
+                    </div>
+                  </div>
+                  <div class="project-box m-box">
+                    <img src="./images/projects/project-3-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">Tech Software</h5>
+                      <p class="text-white mb-1">IT Consultancy</p>
+                    </div>
+                  </div>
+                  <div class="project-box">
+                    <img src="./images/projects/project-4-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">Secure Cyber</h5>
+                      <p class="text-white mb-1">Cyber Security</p>
+                    </div>
+                  </div>
+                  <div class="project-box">
+                    <img src="./images/projects/project-5-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">Design Thinks</h5>
+                      <p class="text-white mb-1">UI Design</p>
+                    </div>
+                  </div>
+                  <div class="project-box m-box" >
+                    <img src="./images/projects/project-6-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">BTC Network</h5>
+                      <p class="text-white mb-1">IT Consultancy</p>
+                    </div>
+                  </div>
+                  <div class="project-box">
+                    <img src="./images/projects/project-7-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">Tech Software</h5>
+                      <p class="text-white mb-1">IT Consultancy</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"> 
+                <div class="row project-box-wrap">
+                  <div class="project-box">
+                    <img src="./images/projects/project-8-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">BTC Network</h5>
+                      <p class="text-white mb-1">IT Consultancy</p>
+                    </div>
+                  </div>
+                  <div class="project-box m-box">
+                    <img src="./images/projects/project-2-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">Tech Software</h5>
+                      <p class="text-white mb-1">Cyber Security</p>
+                    </div>
+                  </div>
+                  <div class="project-box">
+                    <img src="./images/projects/project-1-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">Secure Cyber</h5>
+                      <p class="text-white mb-1">IT Consultancy</p>
+                    </div>
+                  </div>
+                  <div class="project-box">
+                    <img src="./images/projects/project-6-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">Design Thinks</h5>
+                      <p class="text-white mb-1">UI Design</p>
+                    </div>
+                  </div>
+                  <div class="project-box m-box">
+                    <img src="./images/projects/project-4-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">BTC Network</h5>
+                      <p class="text-white mb-1">IT Consultancy</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="row project-box-wrap">
+                  <div class="project-box">
+                    <img src="./images/projects/project-8-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">NYC Remote</h5>
+                      <p class="text-white mb-1">IT Consultancy</p>
+                    </div>
+                  </div>
+                  <div class="project-box m-box">
+                    <img src="./images/projects/project-3-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">Dell Komate</h5>
+                      <p class="text-white mb-1">Web Development</p>
+                    </div>
+                  </div>
+                  <div class="project-box">
+                    <img src="./images/projects/project-1-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">BTC Network</h5>
+                      <p class="text-white mb-1">Cyber Security</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab">
+                <div class="row project-box-wrap">
+                  <div class="project-box">
+                    <img src="./images/projects/project-7-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">BTC Network</h5>
+                      <p class="text-white mb-1">Web Development</p>
+                    </div>
+                  </div>
+                  <div class="project-box m-box">
+                    <img src="./images/projects/project-2-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">Design Thinks</h5>
+                      <p class="text-white mb-1">IT Consultancy</p>
+                    </div>
+                  </div>
+                  <div class="project-box">
+                    <img src="./images/projects/project-6-img.jpg" alt="">
+                    <div class="project-box-data">
+                      <h5 class="text-white mb-2">NYC Remote</h5>
+                      <p class="text-white mb-1">IT Consultancy</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- pricing section  -->
+    <section class="pricing-wrap" style="background-color: #f5f5f5;">
+      <div class="container">
+        <div class="row">
+          <div class="col text-start text-center mb-3" data-aos="fade-up">
+            <h6 class="text-blue" >Our Pricing</h6>
+            <h3 class="comp-head">We provide simple pricing plans for you</h3>
+          </div>
+        </div>
+        <div class="row price-box-wrap mt-3 justify-content-between" data-aos="fade-up">
+          <div class="price-box">
+            <h6 class="mb-0" >Standard Plan</h6>
+            <h2 class="mb-5">$30<sub style="font-size: 2rem;">/Month</sub></h2>
+            <hr>
+            <p class="mt-5">Lorem ipsum dolor sit am, consectetur adipiscing elit.</p>
+            <a href="" class="tir-btn choose-btn w-100 text-center mb-5 mt-3" > Choose Plan </a>
+            <h6 class="my-4" >10 GB disk space availability</h6>
+            <h6 class="my-4" >50 GB NVMe SSD for use</h6>
+            <h6 class="my-4" >Free platform access for all</h6>
+          </div>
+          <div class="price-box">
+            <h6 class="mb-0" >Professional Plan</h6>
+            <h2 class="mb-5">$85<sub style="font-size: 2rem;">/Month</sub></h2>
+            <hr>
+            <p class="mt-5">Lorem ipsum dolor sit am, consectetur adipiscing elit.</p>
+            <a href="" class="tir-btn choose-btn w-100 text-center mb-5 mt-3" > Choose Plan </a>
+            <h6 class="my-4" >250 GB disk space availability</h6>
+            <h6 class="my-4" >100 GB NVMe SSD for use</h6>
+            <h6 class="my-4" >Free platform access for all</h6>
+          </div>
+          <div class="price-box">
+            <h6 class="mb-0" >Enterprise Plan</h6>
+            <h2 class="mb-5">$199<sub style="font-size: 2rem;">/Month</sub></h2>
+            <hr>
+            <p class="mt-5">Lorem ipsum dolor sit am, consectetur adipiscing elit.</p>
+            <a href="" class="tir-btn choose-btn w-100 text-center mb-5 mt-3"> Choose Plan </a>
+            <h6 class="my-4" >500 GB disk space availability</h6>
+            <h6 class="my-4" >250 GB NVMe SSD for use</h6>
+            <h6 class="my-4" >Free platform access for all</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review-wrap">
+      <div class="container">
+          <div class="row mb-5"  data-aos="fade-up">
+              <div class="col text-start text-center">
+                <h6 class="text-blue" >Testimonials</h6>
+                <h3 class="comp-head ">See what people are saying about us</h3>
+              </div>
+          </div>
+          <div class="row  review-slider"  data-aos="slide-up">
+              <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide review-slide text-center">
+                      <img src="./images/reviews/review-1-img.jfif" class="mb-4" alt="">
+                      <h6 class="mb-2">Karn Lynn</h6>
+                      <p class="mb-4" style="font-size: 1.8rem;">BMI Founder</p>
+                      <p>“Excellent IT service provider. The team contacted me quickly and dealt with my issue promptly & professionally. I can highly recommend this company.”</p>
+                    </div>
+                    <div class="swiper-slide review-slide text-center">
+                      <img src="./images/reviews/review-2-img.jfif" class="mb-4" alt="">
+                      <h6 class="mb-2">Sara Sayyed</h6>
+                      <p class="mb-4" style="font-size: 1.8rem;">Sales Executive</p>
+                      <p>“Excellent IT service provider. The team contacted me quickly and dealt with my issue promptly & professionally. I can highly recommend this company.”</p>
+                    </div>
+                    <div class="swiper-slide review-slide text-center">
+                      <img src="./images/reviews/review-3-img.jfif" class="mb-4" alt="">
+                      <h6 class="mb-2">Siya Bose</h6>
+                      <p class="mb-4" style="font-size: 1.8rem;">BI Manager</p>
+                      <p>“Excellent IT service provider. The team contacted me quickly and dealt with my issue promptly & professionally. I can highly recommend this company.”</p>
+                    </div>
+                    <div class="swiper-slide review-slide text-center">
+                      <img src="./images/reviews/review-1-img.jfif" class="mb-4" alt="">
+                      <h6 class="mb-2">Karn Lynn</h6>
+                      <p class="mb-4" style="font-size: 1.8rem;">BMI Founder</p>
+                      <p>“Excellent IT service provider. The team contacted me quickly and dealt with my issue promptly & professionally. I can highly recommend this company.”</p>
+                    </div>
+                    <div class="swiper-slide review-slide text-center">
+                      <img src="./images/reviews/review-2-img.jfif" class="mb-4" alt="">
+                      <h6 class="mb-2">Sara Sayyed</h6>
+                      <p class="mb-4" style="font-size: 1.8rem;">Sales Executive</p>
+                      <p>“Excellent IT service provider. The team contacted me quickly and dealt with my issue promptly & professionally. I can highly recommend this company.”</p>
+                    </div>
+                    <div class="swiper-slide review-slide text-center">
+                      <img src="./images/reviews/review-3-img.jfif" class="mb-4" alt="">
+                      <h6 class="mb-2">Siya Bose</h6>
+                      <p class="mb-4" style="font-size: 1.8rem;">BI Manager</p>
+                      <p>“Excellent IT service provider. The team contacted me quickly and dealt with my issue promptly & professionally. I can highly recommend this company.”</p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- newsletter section  -->
+  <section class="about-page-news-wrap newsletter-wrap" data-aos="fade-up">
+    <div class="container">
+        <div class="row">
+          <div class="col text-start newsletter-txt text-center">
+            <h6 class="text-blue" >Subscribe Newsletters</h6>
+            <h3 class="comp-head">Looking for the best IT business solutions?</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-box mx-auto">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control newsletter-input" placeholder="Your Email ID..." aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="main-btn newsletter-btn" style="font-size: 1.8rem;" type="button" id="button-addon2">Subscribe</button>
+          </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+<!-- footer section -->
+<footer class="footer-wrap">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="footer-txt">
+        <img src="https://favdevs.com/demos/wp/techza/wp-content/uploads/2023/05/white-logo.png" style="width: 180px;" alt="">
+        <p class="text-white mt-5">We are a digital acceleration specialist and specializing in robust end-to-end delivery of tailor-made technology solutions with best innovative, scalable and competitive results.</p>
+        <i class="team-social-icon fa-brands fa-facebook-f my-4 mb-2" style="padding:1rem 1.4rem; color: black;"></i>
+            <i class="team-social-icon fa-brands fa-twitter mx-4 my-4 mb-2" style="padding:1rem; color: black;"></i>
+            <i class="team-social-icon fa-brands fa-linkedin-in my-4 mb-2" style="padding:1rem 1.2rem; color: black;"></i>
+      </div>
+      <div class="footer-1 text-white">
+        <ul class="footer-links p-0 text-start">
+          <h6 class="mb-4" >Quick Link</h6>
+          <li><a href="./index.html" class="text-white">Home</a></li>
+          <li><a href="./about.html" class="text-white">About</a></li>
+          <li><a href="./services.html" class="text-white">Services</a></li>
+          <li><a href="./projects.html" class="text-white">Projects</a></li>
+          <li><a href="./team.html" class="text-white">Team</a></li>
+          <li><a href="./blog.html" class="text-white">Blog</a></li>
+          <li><a href="./contact.html" class="text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-2 text-white">
+        <ul class="footer-links p-0 text-start">
+          <h6 class="mb-4" >Utility Pages</h6>
+          <li><a href="" class="text-white">Instructions</a></li>
+          <li><a href="" class="text-white">Style guide</a></li>
+          <li><a href="" class="text-white">Licenses</a></li>
+          <li><a href="./projects.html" class="text-white">Projects</a></li>
+          <li><a href="./team.html" class="text-white">Team</a></li>
+        </ul>
+      </div>
+      <div class="footer-3 text-white">
+        <ul class="footer-links p-0 text-start">
+          <h6 class="mb-4" >Resources</h6>
+          <li><a href="" class="text-white">Help Center</a></li>
+          <li><a href="" class="text-white">Support</a></li>
+          <li><a href="" class="text-white">Privacy policy</a></li>
+          <li><a href="" class="text-white">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ </footer>
+ <section>
+  <div class="container-fluid" style="background-color: hwb(0 0% 100% / 0.95); border-top: .5px solid rgba(255, 255, 255, 0.3) ;">
+  <div class="row text-center text-white">
+    <div class="col mt-4">
+      <p> &#169 Copyright 2023</p>
+    </div>
+  </div>
+</div>
+ </section>
+
+
+
+        <!-- bootstrap js  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!-- swiper css  -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset: 185,
+            duration: 500,
+          });
+        </script>
+  </body>
+</html>

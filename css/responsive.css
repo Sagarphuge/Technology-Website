@@ -1,0 +1,551 @@
+@media (max-width:1399px) {
+    .header-data{
+        width: 60%;
+    }
+    .txt-section-img img{
+        width: 90%;
+    } 
+    .txt-section-img{
+        margin-top: 5rem;
+        margin-left: 2rem;
+    }
+    .txt-n-section{
+        margin-top: 3.6rem;
+        padding-top: 1rem;
+    }
+    .blog-row-2{
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+    }
+    .contact-us-box{
+        padding: 4rem 3rem 3rem 3rem;
+    }
+    .m-box{
+        margin: auto 2.2rem;
+    }
+}
+@media (max-width:1199px) {
+    h3{
+        font-size: 4.8rem;
+    }
+    h5{
+        font-size: 2.4rem;
+    }
+    .comp-head{
+        width: 70%;
+    }
+    .header-data{
+        width: 70%;
+    }
+    .price-box{
+        padding: 3.6rem;
+    }
+    .process-box{
+        padding: 4rem 2.2rem;
+    }
+    .about-img,.vision-img{
+        padding-right: 2.4rem;
+    }
+    .choose-img{
+        padding-left: 2.4rem;
+    } 
+    .service-data{
+        padding: 3rem 2rem;
+        margin: 1.2rem 0;
+    }
+    .change-num-box{
+        padding: 0;
+        margin-top:1.5rem;
+    } 
+    .review-slide{
+        padding: 3rem;
+    }
+    .review-slide img{
+        width: 110px;
+        height: 110px;
+    }
+    .txt-section-img{
+        height: 100%;
+        width: 90%;
+        margin: 0;
+    }
+    .txt-section-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .points{
+        display: none;
+    }
+    .contact-us-box{
+        padding: 3rem 2rem 2rem 2rem;
+    }
+    .contact-icon{
+        margin-right: 1.5rem;
+        font-size: 2rem;
+    }
+    .contact-us-from textarea{
+        height: 300px !important;
+    }
+    .project-box{
+        height: 340px;
+        margin: 1rem 0;
+    }
+    .m-box{
+        margin: auto 1.8rem;
+    }
+}
+@media (max-width:991px) {
+    h2{
+        font-size: 5.6rem;
+    }
+    .nav-link{
+        padding: 1.2rem;
+    }
+    .navbar-nav{
+        align-items: center;
+        margin-top: 2.4rem !important;
+    }
+    .navbar-nav .nav-item a{
+        font-weight: 600;
+    }
+    .get-a-quote{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2.4rem;
+        margin-top: 1.5rem;
+    }
+
+
+    .header-data{
+        width: 80%;
+    }
+    .about-img,.vision-img{
+        padding-right: 0rem;
+        margin-bottom: 6rem;
+    }
+    .choose-img{
+        padding-left: 0rem;
+        margin-top: 6rem;
+    } 
+    .comp-head{
+        width: 90%;
+    }
+    .service-data{
+        padding: 4rem 3rem;
+        width: 100%;
+        margin: 1.5rem 0;
+    }
+
+    .process-box{
+        width: 48%;
+    }
+    .team-btn{
+        display: none;
+    }
+    .team-head{
+        text-align: center;
+    }
+    .team-person{
+        width: 48%;
+        margin-bottom: 6rem;
+    }
+    .price-box{
+        width: 70%;
+        margin: 1.5rem auto;
+    }
+    .blog-box{
+        width: 90%;
+        margin: 1.5rem auto;
+    }
+    .input-box{
+        width: 80%;
+    }
+    .footer-txt{
+        width: 90%;
+    }
+    .footer-1,.footer-2,.footer-3{
+        width: 30%;
+        margin-top: 5rem;
+    }
+    .team-btn-btm{
+        display: inline-block;
+    }
+    .team-btn-wrap{
+        display: none;
+    }
+    .team-heading{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+
+    .change-num-box{
+        width: 35%;
+    }
+    .change-num-box-wrapper{
+        justify-content: space-evenly;
+    }
+    .txt-section-img{
+        width: 80%;
+        margin: auto;
+        margin-top: 5rem;
+    }
+    .txt-section-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .points{
+        display: block;
+    }
+    .txt-right{
+        margin-top: 5rem;
+    }
+
+    .about-page-team{
+        margin-top: -10rem;
+    }
+    .faq-box{
+        width: 90%;
+        margin: auto;
+    }
+    .faq-box-1{
+        margin-bottom: 2rem;
+    }
+    .about-page-news-wrap,.about-page-wrap{
+        margin-top: -8rem;
+    }
+    .team-box-2{
+        margin-top: 0;
+    }
+    .blog-row-2{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    .blog-row-3{
+        margin-bottom: 3rem;
+    }
+    .contact-box-3{
+        display: none;
+    }
+    .contact-us-box{
+        width: 48%;
+        padding: 4rem 3rem 3rem 4rem;
+    }
+    .contact-icon{
+        margin-right: 1.5rem;
+        font-size: 3rem;
+    }
+    .contact-text,.contact-us-from{
+        width: 100%;
+    }
+    .contact-us-from{
+        margin-top: 3rem;
+    }  
+    .contact-us-wrap{
+        padding: 2rem 0;
+    }
+    .project-box{
+        width: 48%;
+        margin: 1.5rem 0;
+    }
+    .m-box{
+        margin: auto 0rem;
+    }
+    .project-box-wrap{
+        justify-content: space-between;
+    }
+    .project-wrap {
+        padding: 12rem 0;
+    }
+    .project-btns{
+        padding: 1rem 1.5rem;
+        margin: 0 0.5rem;
+    }
+}
+
+@media (max-width:767px){
+    h2{
+        font-size: 5.2rem;
+    }
+    h3{
+        font-size: 4.2rem;
+    }
+    .header-data{
+        width: 70%;
+        top: 25%;
+    }
+    .comp-head{
+        width: 95%;
+    }
+    .about-img,.vision-img,.choose-img{
+        height: 460px;
+    }
+    .price-box{
+        width: 80%;
+    }
+    .footer-txt{
+        width: 95%;
+    }
+    .txt-n-section{
+        display: none;
+    }
+    .txt-section-img{
+        margin-top: 3rem;
+    }
+    .review-slide{
+        padding: 4rem 6rem;
+    }
+    .team-page-team-wrap{
+        margin-top: -6rem;
+    }
+    .blog-page-blog-wrap{
+        margin-top: -6rem;
+    }
+    .contact-us-box{
+        width: 100%;
+        margin: 1.2rem 0;
+        padding-left: 12rem;
+    }
+    .contact-box-3{
+        display: flex;
+    }
+    .contact-icon{
+        margin-right: 3rem;
+        font-size: 3rem;
+    }
+    .contact-us-top{
+        padding: 12rem 0;
+    }
+    .project-box{
+        height: 300px;
+    }
+    .project-tab{
+        display: none;
+    }
+}
+
+@media (max-width:575px){
+    h1{
+        font-size: 6.4rem;
+    }
+    h2{
+        font-size: 4.8rem;
+    }
+    h3{
+        font-size: 3.8rem;
+    }
+    .container{
+        width: 95%;
+    }
+    .header-display{
+        display: none;
+    }
+    .header-data{
+        width: 85%;
+    }
+    .comp-head{
+        width: 100%;
+    }
+    .about-wrap,.service-wrap,.choose-wrap,.work-process-wrap,.team-wrap,.pricing-wrap,.vision-wrap,.blog-wrap,.change-num-wrap,.txt-wrap,.faq-wrap,.review-wrap{
+        padding: 10rem 0;
+    }
+    .about-img,.vision-img{
+        margin-bottom: 4.2rem;
+    }
+    .choose-img{
+        margin-top: 4.2rem;
+    }
+    .text-start{
+        text-align: start !important;
+    }
+    .service-data{
+        padding: 3rem 1.5rem;
+        margin: 1rem 0;
+    }
+    .icon-section{
+        padding-top: 1.5rem;
+    }
+    .price-box{
+        width: 90%;
+    }
+    .blog-box{
+        width: 100%;
+        margin: 1rem auto;
+    }
+    .blog-btn{
+        margin-top: 2rem;
+    }
+    .input-box{
+        width: 100%;
+    }
+    .newsletter-wrap{
+        padding: 10rem 0 12rem 0;
+    }
+    .footer-txt{
+        width: 100%;
+    }
+    .footer-1,.footer-2{
+        width: 50%;
+    }
+    .footer-3{
+        display: none;
+    }
+    .newsletter-btn{
+        padding: 1.2rem 2.4rem;
+    }
+    .blog-img{
+        height: 280px;
+    }
+    .team-heading,.our-team{
+        text-align: start;
+    }
+    .faq-box{
+        width: 100%;
+    }
+    .about-page-wrap{
+        margin-top: -6rem;
+    }
+    .change-num-box{
+        width: 48%;
+    }
+    .top-head{
+        height: 300px;
+    }
+    .blog-page-blog-wrap{
+        margin-top: -2rem;
+    }
+    .blog-row-3{
+        margin-bottom: 2rem;
+    }
+    .contact-us-box{
+        padding-left: 9rem;
+    }
+    .contact-us-top{
+        padding: 10rem 0;
+    }
+
+    .project-box{
+        width: 100%;
+    }
+    .project-box{
+        height: 360px;
+        margin: 1.2rem 0;
+    }
+    .project-wrap {
+        padding: 10rem 0;
+    }
+    p{
+        font-size: 1.8rem;
+    }
+    
+}
+
+@media (max-width:480px){
+    h2{
+        font-size: 4.2rem;
+    }
+    h3{
+        font-size: 3.6rem;
+    }
+    h5{
+        font-size: 2.4rem;
+    }
+    .header-data{
+        width: 95%;
+    }
+    .about-wrap,.service-wrap,.choose-wrap,.work-process-wrap,.team-wrap,.pricing-wrap,.vision-wrap,.blog-wrap,.change-num-wrap,.txt-wrap,.faq-wrap{
+        padding: 6rem 0;
+    }
+    .review-wrap{
+        padding: 6rem 0 10rem 0;
+    }
+    .about-img,.vision-img,.choose-img{
+        height: 360px;
+    }
+    .icon-section{
+        padding-top: .5rem;
+        margin-top: 2.4rem;
+    }
+    .about-img,.vision-img{
+        margin-bottom: 3rem;
+    }
+    .choose-img{
+        margin-top: 3rem;
+    }
+    .service-img{
+        margin-right: 2.4rem;
+    }
+    .process-box{
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .team-person{
+        width: 100%;
+        height: 360px;
+    }
+    .price-box{
+        width: 100%;
+        margin: 1rem auto;
+    }
+    .footer-1,.footer-2{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .newsletter-btn{
+        padding: 1rem 1.2rem;
+    }
+    .newsletter-wrap{
+        padding: 8rem 0 10rem 0;
+    }
+    .blog-data{
+        padding: 2rem 1.5rem;
+    }
+    .service-img img{
+        width: 60px;
+        height: 60px;
+    }
+    .change-num-box{
+        width:75%;
+    }
+    .txt-section-img{
+        width: 100%;
+    }
+    .about-page-wrap{
+        margin-top: -2rem;
+    }
+    .review-slide{
+        padding: 3rem 2rem;
+    }
+    .about-page-team{
+        margin-top: -6rem;
+    }
+    .team-page-team-wrap{
+        margin-top: -2rem;
+    }
+    .contact-us-box{
+        padding-left: 3.2rem;
+    }
+    .contact-icon{
+        font-size: 2.4rem;
+        margin-right: 2rem;
+    }
+    .name ,.email ,.number ,.subject{
+        width: 100%;
+    }
+    .contact-us-from{
+      margin-top: 3rem;
+    }
+    .contact-us-top{
+        padding: 3rem 0 6rem 0;
+    }
+    .project-wrap {
+        padding: 6rem 0;
+    }
+    .change-num-box h3{
+        margin-bottom: 1rem;
+    }
+    .change-num-box img {
+        margin-right: 3.6rem;
+    }
+        
+}
